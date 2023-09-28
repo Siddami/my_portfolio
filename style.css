@@ -46,7 +46,7 @@ section{
 
 .logo{
     font-size: 2.5rem;
-    color: var(--text-color);
+    color: var(--main-color);
     font-weight: 600;
     cursor: default;
 }
@@ -75,8 +75,7 @@ section{
 }
 
 .home-img img{
-    width: 30vw;
-    box-shadow: 0 0 1rem var(--second-bg-color);
+    width: 38vw;
 }
 
 .home_content h3{
@@ -127,4 +126,23 @@ span{
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+}
+
+.btn:hover{
+    box-shadow: none;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
 }
