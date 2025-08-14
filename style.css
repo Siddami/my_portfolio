@@ -73,12 +73,12 @@ section{
 
 .home{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .home-img img{
-    width: 38vw;
+    width: 30vw;
     animation: floatImage 4s ease-in-out infinite;
 }
 
