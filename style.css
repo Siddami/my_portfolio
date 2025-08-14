@@ -446,6 +446,7 @@ span{
 
     .home{
         flex-direction: column;
+        justify-content: center;
     }
 
     .home-content h3{
